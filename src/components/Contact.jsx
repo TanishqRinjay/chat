@@ -17,14 +17,14 @@ const Contact = () => {
                         Love to hear from you, <br />
                         Get in touch👋
                     </h2>
-                    <div className="flex md:flex-row flex-col justify-between sm:items-start min-w-[250px] md:px-10 md:py-0 py-4">
+                    <div className="flex md:flex-row flex-col justify-between sm:items-start min-w-[250px] md:px-10 md:py-0 py-4 lg:gap-4">
                         <div className="flex flex-col">
                             <label className="font-medium" htmlFor="name">Your Name</label>
                             <input
                                 type="text"
                                 name="entry.1692114509"
                                 id="name"
-                                placeholder="Enter your e-mail id"
+                                placeholder="Enter your name"
                                 className="px-4 py-2 rounded-sm bg-gray-50 sm:w-[300px] w-[200px]"
                             />
                         </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                                 type="email"
                                 name="entry.157337104"
                                 id="email"
-                                placeholder="Enter your name"
+                                placeholder="Enter your E-mail id"
                                 className="px-4 py-2 rounded-sm bg-gray-50 w-[200px] sm:w-[300px]"
                             />
                         </div>
