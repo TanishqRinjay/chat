@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 const Contact = () => {
     return (
-        <div className="w-full flex justify-center min-h-screen">
+        <div className="w-full flex justify-center min-h-screen" id="contact">
             <div className="w-11/12 flex flex-col items-center justify-center">
                 <div className="w-full p-6">
                     <div className="w-[50%] flex justify-end"></div>

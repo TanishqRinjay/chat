@@ -29,15 +29,15 @@ const HeroSection = () => {
                                 <p className="text-black">
                                     with{" "}
                                     <span className=" text-2xl text-blue-600 font-semibold drop-shadow-[1px_1px_0_rgba(99,136,255,1)]">
-                                        Base
+                                        Ease
                                     </span>
                                 </p>
                             </div>
                         </div>
-                        <button className=" group text-white bg-gray-900 py-1 rounded-xl flex gap-1 items-center duration-200 justify-between w-[400px] tracking-wider pl-[40%] pr-4">
+                        <a className=" group text-white bg-gray-900 py-1 rounded-xl flex gap-1 items-center duration-200 justify-between w-[400px] tracking-wider pl-[40%] pr-4" href="https://calendar.google.com/calendar/u/0/r/eventedit?vcon=meet&dates=now&hl=en-GB&pli=1" target="_blank">
                             Book a Call
-                            <BsArrowUpRight className="group-hover:rotate-45 duration-200 font-semibold justify-self-end text-white " />
-                        </button>
+                            <BsArrowUpRight className="group-hover:rotate-45 duration-300 font-semibold justify-self-end text-white " />
+                        </a>
                     </div>
                     <img src={chatBot} alt="" className=" w-36 self-end m-8" />
                 </div>

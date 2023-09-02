@@ -18,7 +18,7 @@ import test3 from "../images/test3.jpeg";
 const Testimonials = () => {
     const images = [test1, test2, test3];
     return (
-        <div className="flex items-center justify-center w-full bg-gray-900 h-screen">
+        <div className="flex items-center justify-center w-full bg-gray-900 h-screen" id="work">
             <div className=" flex w-11/12">
                 <div className="flex justify-between flex-col gap-10 w-full items-center">
                     <p className=" text-4xl font-semibold text-yellow-500">Testimonials</p>
