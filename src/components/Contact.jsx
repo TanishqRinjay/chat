@@ -17,7 +17,7 @@ const Contact = () => {
                         Love to hear from you, <br />
                         Get in touch👋
                     </h2>
-                    <div className="flex md:flex-row flex-col justify-between px-10 md:py-0 py-4">
+                    <div className="flex md:flex-row flex-col justify-between sm:items-start min-w-[250px] md:px-10 md:py-0 py-4">
                         <div className="flex flex-col">
                             <label className="font-medium" htmlFor="name">Your Name</label>
                             <input
@@ -25,7 +25,7 @@ const Contact = () => {
                                 name="entry.1692114509"
                                 id="name"
                                 placeholder="Enter your name"
-                                className="px-4 py-2 rounded-sm bg-gray-50 w-[300px]"
+                                className="px-4 py-2 rounded-sm bg-gray-50 sm:w-[300px] w-[200px]"
                             />
                         </div>
                         <div className="flex flex-col">
@@ -35,11 +35,11 @@ const Contact = () => {
                                 name="entry.157337104"
                                 id="email"
                                 placeholder="Enter your name"
-                                className="px-4 py-2 rounded-sm bg-gray-50 w-[300px]"
+                                className="px-4 py-2 rounded-sm bg-gray-50 w-[200px] sm:w-[300px]"
                             />
                         </div>
                     </div>
-                    <div className="flex md:flex-row flex-col justify-between px-10 md:py-0 py-4">
+                    {/* <div className="flex md:flex-row flex-col justify-between px-10 md:py-0 py-4">
                         <div className="flex flex-col">
                             <label className="font-medium" htmlFor="budget">Enter Budget</label>
                             <input
@@ -66,9 +66,9 @@ const Contact = () => {
                                 <option value="Coding">Coding</option>
                             </select>
                         </div>
-                    </div>
-                    <div className="flex max-w-[800px] min-w-[300px] flex-col md:px-10">
-                        <label className="font-medium" htmlFor="message">Enter Message</label>
+                    </div> */}
+                    <div className="flex max-w-[800px] md:w-[700px] flex-col min-w-[200px] md:px-10">
+                        <label className="font-medium" htmlFor="message">Feedback</label>
                         <textarea
                             name="entry.1574852582"
                             id="message"

@@ -39,7 +39,7 @@ const HeroSection = () => {
                             <BsArrowUpRight className="group-hover:rotate-45 duration-300 font-semibold justify-self-end text-white " />
                         </a>
                     </div>
-                    <img src={chatBot} alt="" className=" md:w-36 w-20 m-8" />
+                    <img src={chatBot} alt="" className=" md:w-36 w-20 hidden sm:block m-8" />
                 </div>
                 <div className="md:w-[50%] w-full bg-gray-100 flex items-center justify-between py-20 flex-col gap-2">
                     <img src={messenger} className="w-full h-[60%]" />
