@@ -24,7 +24,7 @@ const Contact = () => {
                                 type="text"
                                 name="entry.1692114509"
                                 id="name"
-                                placeholder="Enter your name"
+                                placeholder="Enter your e-mail id"
                                 className="px-4 py-2 rounded-sm bg-gray-50 sm:w-[300px] w-[200px]"
                             />
                         </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                             id="message"
                             cols="30"
                             rows="10"
-                            placeholder="Enter your message"
+                            placeholder="Enter feedback"
                             className="px-4 py-2 rounded-sm bg-gray-50 w-full"
                         ></textarea>
                     </div>
