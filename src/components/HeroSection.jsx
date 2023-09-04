@@ -7,7 +7,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 const HeroSection = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full min-h-screen bg-gray-50">
-            <div className=" h-[3.5rem]"></div>
+            <div className=" md:hidden h-[3.5rem]"></div>
             <div className="flex md:flex-row flex-col items-center md:justify-center w-11/12 relative min-h-[calc(100vh)]">
                 <div className="md:w-[50%] w-full flex items-center justify-between px-16 py-10 md:py-0 ">
                     <div className=" flex flex-col gap-20">
