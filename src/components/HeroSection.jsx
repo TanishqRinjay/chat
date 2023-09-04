@@ -34,12 +34,20 @@ const HeroSection = () => {
                                 </p>
                             </div>
                         </div>
-                        <a className=" group text-white bg-gray-900 py-1 rounded-xl flex md:gap-1 items-center duration-200 justify-between lg:w-[250px] w-[150px] tracking-wider lg:pl-[30%] pl-2 pr-4" href="https://calendar.google.com/calendar/u/0/r/eventedit?vcon=meet&dates=now&hl=en-GB&pli=1" target="_blank">
-                            Book a Call
+                        <a
+                            className=" group text-white bg-gray-900 py-1 rounded-xl flex md:gap-1 items-center duration-200 justify-between lg:w-[250px] w-[150px] tracking-wider lg:pl-[30%] pl-2 pr-4"
+                            href="https://www.linkedin.com/in/goutham-choudary-322190264/"
+                            target="_blank"
+                        >
+                            Contact me
                             <BsArrowUpRight className="group-hover:rotate-45 duration-300 font-semibold justify-self-end text-white " />
                         </a>
                     </div>
-                    <img src={chatBot} alt="" className=" md:w-36 w-20 hidden sm:block m-8" />
+                    <img
+                        src={chatBot}
+                        alt=""
+                        className=" md:w-36 w-20 hidden sm:block m-8"
+                    />
                 </div>
                 <div className="md:w-[50%] w-full bg-gray-100 flex items-center justify-between py-20 flex-col gap-2">
                     <img src={messenger} className="w-full h-[60%]" />
